@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siteId": "mlbpark",
+  "displayName": "MLB파크 인기글",
+  "mode": "native",
+  "listUrl": "https://mlbpark.donga.com/mp/",
+  "maxItems": 100,
+  "selectors": {
+    "item": ".article_box .news_list:not(.commercial) > ul > li",
+    "title": ".title > a",
+    "link": ".title > a",
+    "meta": ".views",
+    "comments": ".replycont"
+  }
+}

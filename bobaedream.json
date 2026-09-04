@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siteId": "bobaedream",
+  "displayName": "보배드림 자유게시판",
+  "mode": "native",
+  "listUrl": "https://m.bobaedream.co.kr/board/new_writing/freeb",
+  "maxItems": 100,
+  "selectors": {
+    "item": "ul.rank > li",
+    "title": ".txt .cont",
+    "link": ".info > a",
+    "meta": ".txt2",
+    "comments": ".txt5 .num"
+  }
+}

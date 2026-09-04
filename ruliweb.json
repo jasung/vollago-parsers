@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siteId": "ruliweb",
+  "displayName": "루리웹 베스트",
+  "mode": "native",
+  "listUrl": "https://m.ruliweb.com/best",
+  "maxItems": 100,
+  "selectors": {
+    "item": "#best_body .board_list_table tr.table_body",
+    "title": "td.subject a.subject_link strong.text_over",
+    "link": "td.subject a.subject_link",
+    "meta": "td.writer",
+    "comments": "td.subject .num_reply"
+  }
+}

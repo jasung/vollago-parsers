@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "siteId": "ppomppu",
+  "displayName": "뽐뿌",
+  "mode": "browser",
+  "listUrl": "https://m.ppomppu.co.kr/new/bbs_list.php?id=freeboard",
+  "maxItems": 100,
+  "selectors": {}
+}

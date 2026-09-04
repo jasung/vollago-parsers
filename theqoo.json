@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siteId": "theqoo",
+  "displayName": "더쿠 HOT",
+  "mode": "native",
+  "listUrl": "https://theqoo.net/hot",
+  "maxItems": 100,
+  "selectors": {
+    "item": "table.theqoo_board_table tbody.hide_notice > tr:not(.notice):not(.notice_expand)",
+    "title": "td.title > a:not(.replyNum)",
+    "link": "td.title > a:not(.replyNum)",
+    "meta": "td.time",
+    "comments": "td.title > a.replyNum"
+  }
+}

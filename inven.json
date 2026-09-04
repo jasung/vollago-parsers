@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siteId": "inven",
+  "displayName": "인벤 오픈이슈갤러리",
+  "mode": "native",
+  "listUrl": "https://m.inven.co.kr/board/powerbbs.php?come_idx=2097",
+  "maxItems": 100,
+  "selectors": {
+    "item": "section.mo-board-list li.list",
+    "title": ".subject",
+    "link": "a.contentLink",
+    "meta": ".user_info",
+    "comments": ".com-btn .num"
+  }
+}

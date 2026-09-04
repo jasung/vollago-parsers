@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "siteId": "clien",
+  "displayName": "클리앙",
+  "mode": "browser",
+  "listUrl": "https://www.clien.net/service/group/board_all",
+  "maxItems": 100,
+  "selectors": {}
+}

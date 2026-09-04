@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siteId": "todayhumor",
+  "displayName": "오늘의유머 베스트오브베스트",
+  "mode": "native",
+  "listUrl": "https://m.todayhumor.co.kr/list.php?table=bestofbest",
+  "maxItems": 100,
+  "selectors": {
+    "item": "a:has(> .listLineBox)",
+    "title": ".listSubject",
+    "link": ":scope",
+    "meta": ".list_writer",
+    "comments": ".memo_count"
+  }
+}

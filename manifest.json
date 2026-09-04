@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.09.04.1",
+  "sites": [
+    { "id": "bobaedream", "file": "bobaedream.json", "sha256": "c7fa0520f8802e000ecfb85c3a914e8c6c07ada8b1e8f230cf765fd706581723" },
+    { "id": "clien", "file": "clien.json", "sha256": "f4bc7939c2fed6d6b58ab31524c22edc8e4ef24aac80a0a8e6e6f66c8a3533ae" },
+    { "id": "dcinside", "file": "dcinside.json", "sha256": "b3004f2547491cb97d460a037bca7130a69511ba959c71eb8e89ab4f75ca7d64" },
+    { "id": "ddanzi", "file": "ddanzi.json", "sha256": "70578e5851f1c95e6dd30aa0104fb2fa56513cff78671adbed7bcafadcf1da80" },
+    { "id": "inven", "file": "inven.json", "sha256": "6460d33c77b9bd91a4a829ea5da50a7faf2826f0ad6de6efc1f4e801d168c159" },
+    { "id": "mlbpark", "file": "mlbpark.json", "sha256": "f1cc739403af2273666d4f15658c53bbc9808322349d0759297dd3c7260dff8a" },
+    { "id": "ppomppu", "file": "ppomppu.json", "sha256": "55c3dfce00ca19e219cbcc868e6e6cc556aac33605d8f6b1a4efc66989fb3be3" },
+    { "id": "ruliweb", "file": "ruliweb.json", "sha256": "a16d68254b54d2be54168b7faf773a639d96f4ace51dc86f5607d8abba071f3f" },
+    { "id": "theqoo", "file": "theqoo.json", "sha256": "c335beb4ec43bc291f9ffb67160d780d4c576d95757a423c350b39ed8d8cfd72" },
+    { "id": "todayhumor", "file": "todayhumor.json", "sha256": "c7cfd8b15921936ce1852e435e092101e6a481ac20bba19962189ee5a2aa33f5" }
+  ]
+}

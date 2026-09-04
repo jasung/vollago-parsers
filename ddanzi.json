@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siteId": "ddanzi",
+  "displayName": "딴지일보 자유게시판",
+  "mode": "native",
+  "listUrl": "https://www.ddanzi.com/free",
+  "maxItems": 100,
+  "selectors": {
+    "item": "#board_display table > tbody:last-of-type > tr:not(.notice)",
+    "title": "td.title > a:first-child",
+    "link": "td.title > a:first-child",
+    "meta": "td.author",
+    "comments": "td.title .talk"
+  }
+}
