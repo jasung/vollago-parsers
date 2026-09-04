@@ -6,10 +6,10 @@
   "listUrl": "https://m.dcinside.com/board/dcbest",
   "maxItems": 100,
   "selectors": {
-    "item": "tbody.listwrap2 tr.ub-content[data-no]:not([data-type=\"icon_notice\"])",
-    "title": "td.gall_tit > a:first-of-type",
-    "link": "td.gall_tit > a:first-of-type",
-    "meta": "td.gall_writer",
-    "comments": ".reply_num"
+    "item": "ul.gall-detail-lst > li:not(.adv-inner), tbody.listwrap2 tr.ub-content[data-no]:not([data-type=\"icon_notice\"])",
+    "title": ".subjectin, td.gall_tit > a:first-of-type",
+    "link": ".gall-detail-lnktb > a.lt, td.gall_tit > a:first-of-type",
+    "meta": ".ginfo, td.gall_writer",
+    "comments": ".gall-detail-lnktb > a.rt .ct, .reply_num"
   }
 }

@@ -6,10 +6,10 @@
   "listUrl": "https://theqoo.net/hot",
   "maxItems": 100,
   "selectors": {
-    "item": "table.theqoo_board_table tbody.hide_notice > tr:not(.notice):not(.notice_expand)",
-    "title": "td.title > a:not(.replyNum)",
-    "link": "td.title > a:not(.replyNum)",
-    "meta": "td.time",
-    "comments": "td.title > a.replyNum"
+    "item": ".m-list > ul.list > li, table.theqoo_board_table tbody.hide_notice > tr:not(.notice):not(.notice_expand)",
+    "title": ".list-element .title .title_span, td.title > a:not(.replyNum)",
+    "link": "a.list-link, td.title > a:not(.replyNum)",
+    "meta": ".list-element .date, td.time",
+    "comments": "a.m-list-reply, td.title > a.replyNum"
   }
 }

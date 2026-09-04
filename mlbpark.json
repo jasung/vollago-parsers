@@ -6,10 +6,10 @@
   "listUrl": "https://mlbpark.donga.com/mp/",
   "maxItems": 100,
   "selectors": {
-    "item": ".article_box .news_list:not(.commercial) > ul > li",
+    "item": "#SmartPhone_bullpen_today ul.lists:first-of-type > li.items, .article_box .news_list:not(.commercial) > ul > li",
     "title": ".title > a",
     "link": ".title > a",
-    "meta": ".views",
+    "meta": ".info, .views",
     "comments": ".replycont"
   }
 }
