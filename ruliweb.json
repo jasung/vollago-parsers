@@ -6,10 +6,10 @@
   "listUrl": "https://m.ruliweb.com/best",
   "maxItems": 100,
   "selectors": {
-    "item": "#best_body .board_list_table tr.table_body",
-    "title": "td.subject a.subject_link strong.text_over",
-    "link": "td.subject a.subject_link",
-    "meta": "td.writer",
-    "comments": "td.subject .num_reply"
+    "item": "#best_body .board_list_table tr.table_body, .board_main table.board_list_table > tbody > tr.table_body.blocktarget",
+    "title": "td.subject .title a.subject_link, td.subject a.subject_link strong.text_over",
+    "link": "td.subject .title a.subject_link, td.subject a.subject_link",
+    "meta": "td.subject .info, td.writer",
+    "comments": ".replycount .num, .num_reply"
   }
 }
