@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "siteId": "quasarzone",
+  "displayName": "퀘이사존",
+  "mode": "browser",
+  "listUrl": "https://quasarzone.com/",
+  "maxItems": 100,
+  "selectors": {},
+  "notes": "공개 페이지 요청이 HTTP 403으로 제한되어 원문 웹 화면으로 연결합니다.",
+  "verification": "browser_fallback",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  }
+}

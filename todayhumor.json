@@ -11,5 +11,21 @@
     "link": ":scope",
     "meta": ".list_writer",
     "comments": ".memo_count"
+  },
+  "behavior": { "list": { "dedupeQueryParams": ["table", "no"] } },
+  "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
+  "verification": "device_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  },
+  "article": {
+    "body": "#viewContent",
+    "title": ".view_subject",
+    "author": ".view_name",
+    "comments": ".memoDiv",
+    "commentBody": ".memoContent",
+    "commentAuthor": ".memoName"
   }
 }

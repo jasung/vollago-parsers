@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "siteId": "pgr21",
+  "displayName": "피지알21",
+  "mode": "browser",
+  "listUrl": "https://pgr21.com/",
+  "maxItems": 100,
+  "selectors": {},
+  "notes": "접근 확인 화면이 응답되어 게시판 목록 선택자를 검증하지 못했습니다.",
+  "verification": "browser_fallback",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  }
+}

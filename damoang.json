@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "siteId": "damoang",
+  "displayName": "다모앙 자유게시판",
+  "mode": "native",
+  "listUrl": "https://damoang.net/free",
+  "maxItems": 100,
+  "selectors": {
+    "item": "a.post-row, a:has(.lucide-pin):has(h3)",
+    "title": ".post-title, [class*=\"post-title-read-\"], h3",
+    "link": ":scope",
+    "meta": ".mobile-meta",
+    "comments": ".comment-count",
+    "author": ".mobile-meta > span:last-child",
+    "votes": ".mobile-meta > span:first-child"
+  },
+  "behavior": {
+    "list": { "dedupeNumericPath": true },
+    "feed": {
+      "directSearch": { "field": "stx", "params": { "sfl": "title" }, "pageField": "page" },
+      "loginMessages": ["로그인 후 검색할 수 있습니다."],
+      "loginPaths": ["/login"],
+      "page": { "buttonText": "다음", "synthesizeQuery": "page" }
+    }
+  },
+  "notes": "대표 게시판의 네이티브 목록을 지원합니다. 다른 게시판은 원문 웹 화면으로 열 수 있습니다. 본문은 공개 글 HTML로 확인했습니다. 댓글은 현재 불러온 페이지 범위이며 더 보기·작성은 원문을 이용합니다.",
+  "verification": "device_checked",
+  "checkedAt": "2026-09-05",
+  "article": {
+    "body": "#economy-post-content .prose",
+    "title": "h1",
+    "author": "[data-slot=\"card-header\"] p.text-foreground > span",
+    "comments": "#comments .comment-item",
+    "commentBody": ".comment-body",
+    "commentAuthor": "p.text-foreground > span",
+    "commentAnchor": "comments",
+    "commentFocus": "#comments textarea, textarea[name=content], textarea[name=wr_content], form textarea",
+    "pollAttempts": 40,
+    "pollIntervalMs": 750
+  },
+  "articleCheckedAt": "2026-09-05",
+  "filters": {
+    "ads": ".dm-mount",
+    "notices": "a:has(.lucide-pin):has(h3)"
+  }
+}

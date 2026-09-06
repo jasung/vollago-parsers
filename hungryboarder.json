@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "siteId": "hungryboarder",
+  "displayName": "헝그리보더",
+  "mode": "browser",
+  "listUrl": "https://www.hungryboarder.com/",
+  "maxItems": 100,
+  "selectors": {},
+  "notes": "HTTPS 서버 연결에 실패해 목록 구조를 검증하지 못했습니다.",
+  "verification": "browser_fallback",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  }
+}

@@ -11,5 +11,26 @@
     "link": ".info > a",
     "meta": ".txt2",
     "comments": ".txt5 .num"
+  },
+  "behavior": {
+    "list": { "dedupeNumericPath": true },
+    "feed": { "page": { "pathTail": true, "samePathNumericTail": true } }
+  },
+  "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
+  "verification": "device_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  },
+  "article": {
+    "body": ".article-body",
+    "title": ".article-tit .subject",
+    "author": ".article-tit .info > span",
+    "comments": ".reple_body .list > li",
+    "commentBody": ".reply",
+    "commentAuthor": ".util .data4",
+    "commentBadge": ".reply > .ico3",
+    "commentReply": ".ico_area"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "siteId": "navercafe",
+  "displayName": "N카페",
+  "mode": "native",
+  "listUrl": "https://m.cafe.naver.com/",
+  "maxItems": 100,
+  "selectors": {
+    "item": ".ArticlesUlComponent li",
+    "title": ".HeadlineTextBox .tx",
+    "link": "a[href*=\"/articles/\"]",
+    "meta": ".SupportingTextBox",
+    "comments": ""
+  },
+  "notes": "로그인 후 즐겨찾는 카페를 불러와 각 카페의 전체글 목록을 표시합니다. 글 본문은 카페 웹 화면으로 엽니다.",
+  "verification": "device_checked",
+  "checkedAt": "2026-09-06",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  }
+}

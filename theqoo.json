@@ -11,5 +11,16 @@
     "link": "a.list-link, td.title > a:not(.replyNum)",
     "meta": ".list-element .date, td.time",
     "comments": "a.m-list-reply, td.title > a.replyNum"
+  },
+  "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
+  "verification": "device_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  },
+  "article": {
+    "body": ".rhymix_content",
+    "title": ".title"
   }
 }

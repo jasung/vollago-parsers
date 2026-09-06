@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "siteId": "natepann",
+  "displayName": "네이트판 오늘의 톡",
+  "mode": "native",
+  "listUrl": "https://m.pann.nate.com/",
+  "maxItems": 100,
+  "selectors": {
+    "item": "a[href^=\"/talk/\"]:has(.tit)",
+    "title": ".tit",
+    "link": ":scope",
+    "meta": "",
+    "comments": ".reple"
+  },
+  "notes": "사이트 첫 화면에서 제공하는 오늘의 톡 목록입니다. 전체 게시판을 수집하는 규칙은 아닙니다. 본문은 공개 글 HTML로 확인했습니다. 댓글은 현재 불러온 페이지 범위이며 더 보기·작성은 원문을 이용합니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-05",
+  "article": {
+    "body": "#pann-content"
+  },
+  "articleCheckedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  }
+}

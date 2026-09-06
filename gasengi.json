@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "siteId": "gasengi",
+  "displayName": "가생이 해외 반응",
+  "mode": "native",
+  "listUrl": "https://www.gasengi.com/",
+  "maxItems": 100,
+  "selectors": {
+    "item": "a.position-relative[href*=\"wr_id=\"]",
+    "title": ".text-truncate",
+    "link": ":scope",
+    "meta": "",
+    "comments": ".badge"
+  },
+  "behavior": { "list": { "dedupeQueryParams": ["bo_table", "wr_id"] } },
+  "notes": "공개 본문·사진을 앱 화면으로 정리합니다. 댓글 작성은 원문에서 이용할 수 있습니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "ins.adsbygoogle",
+    "notices": ""
+  },
+  "article": {
+    "body": "#bo_v_con",
+    "title": "h3.fs-4"
+  }
+}

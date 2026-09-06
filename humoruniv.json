@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "siteId": "humoruniv",
+  "displayName": "웃긴대학 웃긴자료 인기글",
+  "mode": "native",
+  "listUrl": "https://m.humoruniv.com/",
+  "maxItems": 100,
+  "selectors": {
+    "item": "a[href*=\"table=pds\"][href*=\"number=\"]",
+    "title": "span[id^=\"title_chk\"]",
+    "link": ":scope",
+    "meta": "",
+    "comments": ""
+  },
+  "behavior": {
+    "list": {
+      "redirect": { "path": "/rd.html", "targetPathParam": "url", "copyQueryParams": ["table", "number"] }
+    }
+  },
+  "notes": "공개 본문·사진을 앱 화면으로 정리합니다. 동적 댓글과 댓글 작성은 원문을 이용합니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "ins.adsbygoogle",
+    "notices": ""
+  },
+  "article": {
+    "body": "#wrap_copy .body_editor",
+    "title": ".read_subject"
+  }
+}

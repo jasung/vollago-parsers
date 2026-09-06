@@ -6,10 +6,23 @@
   "listUrl": "https://www.ddanzi.com/free",
   "maxItems": 100,
   "selectors": {
-    "item": "#board_display table > tbody:last-of-type > tr:not(.notice)",
-    "title": "td.title > a:first-child",
-    "link": "td.title > a:first-child",
-    "meta": "td.author",
-    "comments": "td.title .talk"
+    "item": "#boardWrap #list_style > ul > li",
+    "title": ".titleBox .title",
+    "link": ".titleBox a.link.mtitle[href]",
+    "meta": ".asideBox",
+    "comments": ".talk",
+    "author": ".author",
+    "votes": ".voteNum"
+  },
+  "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
+  "verification": "device_checked",
+  "checkedAt": "2026-09-06",
+  "filters": {
+    "ads": "",
+    "notices": ".notice"
+  },
+  "article": {
+    "body": ".read_content .xe_content, .xe_content[class*=\"document_\"]",
+    "title": ".read_header .title, h1.title"
   }
 }

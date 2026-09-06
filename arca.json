@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "siteId": "arca",
+  "displayName": "아카라이브",
+  "mode": "browser",
+  "listUrl": "https://arca.live/",
+  "maxItems": 100,
+  "selectors": {},
+  "notes": "사이트 접근 확인 화면이 응답되어 원문 웹 화면으로 연결합니다.",
+  "verification": "browser_fallback",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  }
+}

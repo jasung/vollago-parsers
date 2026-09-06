@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "siteId": "eomisae",
+  "displayName": "어미새 인기정보",
+  "mode": "native",
+  "listUrl": "https://eomisae.co.kr/",
+  "maxItems": 100,
+  "selectors": {
+    "item": ".widget-tab-content .widget-normal a, #bd a.title.pjax",
+    "title": ":scope",
+    "link": ":scope",
+    "meta": "",
+    "comments": ""
+  },
+  "behavior": { "list": { "dedupeNumericPath": true } },
+  "notes": "사이트 첫 화면에서 제공하는 인기정보 목록입니다. 전체 게시판을 수집하는 규칙은 아닙니다. 본문은 공개 글 HTML로 확인했습니다. 댓글은 현재 불러온 페이지 범위이며 더 보기·작성은 원문을 이용합니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-05",
+  "article": {
+    "body": ".rhymix_content[class*=\"document_\"]",
+    "comments": "._comment[id^=\"comment_\"]",
+    "commentBody": ".rhymix_content",
+    "commentAuthor": "a[class*=\"member_\"]"
+  },
+  "articleCheckedAt": "2026-09-05",
+  "filters": {
+    "ads": "ins.adsbygoogle",
+    "notices": ""
+  }
+}

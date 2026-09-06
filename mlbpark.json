@@ -6,10 +6,25 @@
   "listUrl": "https://mlbpark.donga.com/mp/",
   "maxItems": 100,
   "selectors": {
-    "item": "#SmartPhone_bullpen_today ul.lists:first-of-type > li.items, .article_box .news_list:not(.commercial) > ul > li",
-    "title": ".title > a",
-    "link": ".title > a",
-    "meta": ".info, .views",
-    "comments": ".replycont"
+    "item": "#SmartPhone_bullpen_today ul.lists:first-of-type > li.items, .article_box .news_list:not(.commercial) > ul > li, .tbl_type01 tbody tr:has(.tit a.txt)",
+    "title": ".title > a, .tit a.txt",
+    "link": ".title > a, .tit a.txt",
+    "meta": ".info, .views, .date",
+    "comments": ".replycont, .replycnt",
+    "author": ".nick"
+  },
+  "behavior": {
+    "list": { "dedupeQueryParams": ["b", "id"] },
+    "feed": {
+      "searchForm": { "selector": "form[name=searchForm]", "field": "query", "params": { "m": "search" }, "paramSelectors": { "b": "[name=b]" }, "select": "sct" },
+      "page": { "queryKey": "p", "divisor": 30 }
+    }
+  },
+  "notes": "대표 게시판의 네이티브 목록을 지원합니다. 다른 게시판은 원문 웹 화면으로 열 수 있습니다.",
+  "verification": "device_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
   }
 }

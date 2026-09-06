@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "siteId": "nbamania",
+  "displayName": "NBA Mania 인기글",
+  "mode": "native",
+  "listUrl": "https://mania.kr/",
+  "maxItems": 100,
+  "selectors": {
+    "item": ".igle_row_inner",
+    "title": ".igle_subject_a",
+    "link": ".igle_subject_a",
+    "meta": "",
+    "comments": ".igle_comment"
+  },
+  "behavior": { "list": { "dedupeQueryParams": ["bo_table", "wr_id"] } },
+  "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "",
+    "notices": ""
+  },
+  "article": {
+    "body": "#resContents",
+    "title": "#view_header1",
+    "author": "#view_nickname",
+    "comments": ".comment_content_container",
+    "commentBody": ".comment_content",
+    "commentAuthor": ".comment_nick",
+    "remove": "#view_content_ad_div,.view_popup_button,.gif2video_tip,.view_series"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "siteId": "dealbada",
+  "displayName": "딜바다 국내핫딜",
+  "mode": "native",
+  "listUrl": "https://www.dealbada.com/",
+  "maxItems": 100,
+  "selectors": {
+    "item": "a[href*=\"bo_table=deal_domestic\"][href*=\"wr_id=\"]",
+    "title": ".lt_subject",
+    "link": ":scope",
+    "meta": "",
+    "comments": ""
+  },
+  "behavior": { "list": { "dedupeQueryParams": ["bo_table", "wr_id"] } },
+  "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "ins.adsbygoogle",
+    "notices": ""
+  },
+  "article": {
+    "body": "#bo_v_con",
+    "title": "#bo_v_title",
+    "author": "#bo_v_info .sv_member"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "siteId": "popco",
+  "displayName": "팝코 카메라 리뷰",
+  "mode": "native",
+  "listUrl": "https://www.popco.net/",
+  "maxItems": 100,
+  "selectors": {
+    "item": "a[href*=\"reviewView.php?IDX=\"]",
+    "title": "span",
+    "link": ":scope",
+    "meta": "",
+    "comments": ""
+  },
+  "notes": "사이트 첫 화면에서 제공하는 카메라 리뷰 목록입니다. 전체 게시판을 수집하는 규칙은 아닙니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-05",
+  "filters": {
+    "ads": "ins.adsbygoogle",
+    "notices": ""
+  }
+}

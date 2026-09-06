@@ -2,8 +2,38 @@
   "schemaVersion": 1,
   "siteId": "clien",
   "displayName": "클리앙",
-  "mode": "browser",
+  "mode": "native",
   "listUrl": "https://www.clien.net/service/group/board_all",
   "maxItems": 100,
-  "selectors": {}
+  "selectors": {
+    "item": "a.list_item, .card_item",
+    "title": ".list_subject, .card_subject",
+    "link": ":scope, a.card_subject",
+    "meta": ".list_time",
+    "comments": ".list_reply",
+    "author": ".list_author",
+    "votes": ""
+  },
+  "behavior": {
+    "list": { "dedupeNumericPath": true },
+    "feed": {
+      "searchFromPath": { "actionPrefix": "/service/search/v2", "field": "sv", "params": { "sk": "title" } },
+      "page": { "javascriptPaging": true, "queryKey": "po", "zeroBased": true }
+    }
+  },
+  "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
+  "verification": "browser_fallback",
+  "checkedAt": "2026-09-06",
+  "filters": {
+    "ads": "[class^=\"view_top_\"],[class^=\"list_bottom_\"],.list_item:has(a[href*=\"/hongbo/\"])",
+    "notices": ".list_item.notice"
+  },
+  "article": {
+    "body": ".post_article",
+    "title": ".post_subject",
+    "author": ".post_contact .contact_name .nickname",
+    "comments": ".comment_row",
+    "commentBody": ".comment_view",
+    "commentAuthor": ".contact_name .nickname"
+  }
 }
