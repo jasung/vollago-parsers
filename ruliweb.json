@@ -31,6 +31,7 @@
     "commentBody": ".text_wrapper",
     "commentAuthor": ".nick",
     "commentReply": ".comment_element.child",
+    "commentRecipient": ".p_nick",
     "remove": ".icon_best,.screen_out"
   }
 }
