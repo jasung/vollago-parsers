@@ -3,7 +3,7 @@
   "siteId": "ruliweb",
   "displayName": "루리웹 베스트",
   "mode": "native",
-  "listUrl": "https://m.ruliweb.com/best",
+  "listUrl": "https://m.ruliweb.com/best/humor_only/now",
   "maxItems": 100,
   "selectors": {
     "item": "#best_body .board_list_table tr.table_body, .board_main table.board_list_table > tbody > tr.table_body.blocktarget",

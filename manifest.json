@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.07.3",
+  "version": "2026.09.07.4",
   "sites": [
     {
       "id": "clien",
@@ -10,7 +10,7 @@
     {
       "id": "ruliweb",
       "file": "ruliweb.json",
-      "sha256": "2009e9e9cea6ea4c23f88d176109308037136a6c886b7cb7074b2d82b4a29186"
+      "sha256": "68e67fef79785f9f60b6d2217f584d03a9eea90c72f77b857761239d3f8d6596"
     },
     {
       "id": "slrclub",
