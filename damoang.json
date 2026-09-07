@@ -27,7 +27,7 @@
   "verification": "device_checked",
   "checkedAt": "2026-09-05",
   "article": {
-    "body": "#economy-post-content .prose",
+    "body": "div.space-y-6:has(> #economy-post-content)",
     "title": "h1",
     "author": "[data-slot=\"card-header\"] p.text-foreground > span",
     "comments": "#comments .comment-item",
@@ -35,6 +35,7 @@
     "commentAuthor": "p.text-foreground > span",
     "commentAnchor": "comments",
     "commentFocus": "#comments textarea, textarea[name=content], textarea[name=wr_content], form textarea",
+    "remove": "video + div",
     "pollAttempts": 40,
     "pollIntervalMs": 750
   },

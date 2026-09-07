@@ -30,6 +30,7 @@
     "comments": ".comment_view.normal .comment_element",
     "commentBody": ".text_wrapper",
     "commentAuthor": ".nick",
+    "commentReply": ".comment_element.child",
     "remove": ".icon_best,.screen_out"
   }
 }

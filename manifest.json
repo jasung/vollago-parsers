@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.07.4",
+  "version": "2026.09.07.5",
   "sites": [
     {
       "id": "clien",
@@ -10,7 +10,7 @@
     {
       "id": "ruliweb",
       "file": "ruliweb.json",
-      "sha256": "68e67fef79785f9f60b6d2217f584d03a9eea90c72f77b857761239d3f8d6596"
+      "sha256": "825ac562f2f99d0d66c26c2db9683e469ce0a60c5bc90a830a90de5270ea1cf8"
     },
     {
       "id": "slrclub",
@@ -155,7 +155,7 @@
     {
       "id": "damoang",
       "file": "damoang.json",
-      "sha256": "c3e1582bcf6a0d05b3334e607ffb4ce87d5022ba5fd8e28e95b4b993f8dd3b36"
+      "sha256": "d47fa704bda230963b4531d07a0805cfada75e883b218ba6700741a44dfbca97"
     },
     {
       "id": "geeknews",
