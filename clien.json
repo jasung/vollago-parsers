@@ -25,7 +25,7 @@
   "verification": "browser_fallback",
   "checkedAt": "2026-09-06",
   "filters": {
-    "ads": "[class^=\"view_top_\"],[class^=\"list_bottom_\"],.list_item:has(a[href*=\"/hongbo/\"])",
+    "ads": "[class^=\"view_top_\"],[class^=\"list_bottom_\"],a.list_item[href*=\"/hongbo/\"]",
     "notices": ".list_item.notice"
   },
   "article": {

@@ -12,7 +12,10 @@
     "meta": "td.subject .info, td.writer",
     "comments": ".replycount .num, .num_reply"
   },
-  "behavior": { "list": { "dedupeNumericPath": true } },
+  "behavior": {
+    "list": { "dedupeNumericPath": true },
+    "feed": { "page": { "nextSelector": ".paging_wrapper .active + a" } }
+  },
   "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
   "verification": "device_checked",
   "checkedAt": "2026-09-05",

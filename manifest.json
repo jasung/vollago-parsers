@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.07.2",
+  "version": "2026.09.07.3",
   "sites": [
     {
       "id": "clien",
       "file": "clien.json",
-      "sha256": "e64dde02f102d21ad70099deebac8f88297289b19414db1ba446a2566b46550c"
+      "sha256": "e57413e626de26c55d83321a1c8a266506ca94cbe22a137590469a9a378cf7b6"
     },
     {
       "id": "ruliweb",
       "file": "ruliweb.json",
-      "sha256": "f013eaef13a2723d419b6adfec20725af31f624b784e0c67c5392e91851c4cc2"
+      "sha256": "2009e9e9cea6ea4c23f88d176109308037136a6c886b7cb7074b2d82b4a29186"
     },
     {
       "id": "slrclub",
