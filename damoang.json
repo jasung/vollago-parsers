@@ -33,7 +33,7 @@
     "comments": "#comments .comment-item",
     "commentBody": ".comment-body",
     "commentAuthor": "p.text-foreground > span",
-    "remove": "video + div",
+    "remove": "video + div, #economy-post-content ~ .mt-4 span.text-muted-foreground",
     "pollAttempts": 40,
     "pollIntervalMs": 750
   },

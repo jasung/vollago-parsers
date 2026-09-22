@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.22.4",
+  "version": "2026.09.22.5",
   "sites": [
     {
       "id": "clien",
@@ -155,7 +155,7 @@
     {
       "id": "damoang",
       "file": "damoang.json",
-      "sha256": "435023c1d837001d9a1b6394835020710b983251e03ed7b85c39b1a3dd2afb7a"
+      "sha256": "9259dd21a4edebe437fc3885c422b0dba156c5c9a59c343afd016dd17d4ffc11"
     },
     {
       "id": "geeknews",
