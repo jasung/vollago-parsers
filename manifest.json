@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.07.6",
+  "version": "2026.09.22.1",
   "sites": [
     {
       "id": "clien",
@@ -15,12 +15,12 @@
     {
       "id": "slrclub",
       "file": "slrclub.json",
-      "sha256": "9e2f5e00072498e9603bf30c53599f23d37a6af7f8d2d83809cf211ff9925665"
+      "sha256": "1dc56c6cac24a42e072ac2312c5fb71f7625da7daed508aa6b0b17217e0e7bdc"
     },
     {
       "id": "ppomppu",
       "file": "ppomppu.json",
-      "sha256": "e256ab23edf9d75885a472a0017d3071dc15f48f2f84febb9b3301a5f44dda7d"
+      "sha256": "fe5af43ca5d8b3a0efa3aba0dcdde660a9711655a49ac54afed6784fffd99bd6"
     },
     {
       "id": "todayhumor",
@@ -40,27 +40,27 @@
     {
       "id": "mlbpark",
       "file": "mlbpark.json",
-      "sha256": "887f66ba34f76d2c1946226524d3ba883e0393c74d8f2b7ea6f248dfe23231d2"
+      "sha256": "9f552aa8cbcf45631b4b846f98886a47f27cf1b00eb6e3d718539aa779f35d29"
     },
     {
       "id": "dvdprime",
       "file": "dvdprime.json",
-      "sha256": "cfe6e744ae7b2d1f7ca0863fe2d5de6e9366e8dab3ea5f0959b9f0a37e7e9349"
+      "sha256": "7a44e99ec15c852f977d472b43e1dc7403e9221e3017779e62b364650b016843"
     },
     {
       "id": "ddanzi",
       "file": "ddanzi.json",
-      "sha256": "9a37c0e788483da261543f7b2019682787c80ef0e4801fc007a079c719684497"
+      "sha256": "ae452e3743ff163b12083a8e6cfa894faaf61c4040b2ef6c346dac67a844f2fa"
     },
     {
       "id": "humoruniv",
       "file": "humoruniv.json",
-      "sha256": "389721584dc005294ccca23cb43cf0810c6dd0c6a0305b21566cc71a961ffa6f"
+      "sha256": "82dd90ee510977183ecdc78a67201319450d34eeb880ef2bdcfd0692d979b53b"
     },
     {
       "id": "dealbada",
       "file": "dealbada.json",
-      "sha256": "ca3d71f81d5d5d43a9bb1524280ae99adf30c45e50366bd993cd396ee8824924"
+      "sha256": "d71f43223cca857dbdc3bd5e1c4ac13dcc46ae05ff30112f4127d3cb4dd3c07d"
     },
     {
       "id": "pgr21",
@@ -75,7 +75,7 @@
     {
       "id": "coolenjoy",
       "file": "coolenjoy.json",
-      "sha256": "7fb5b568db481b3d1236c93d087b7293fbffdfdae658fa7725699b453c459a5f"
+      "sha256": "270c70af30f9f42303d54816dd4a9d351cda6f6d94274c7ca15c1c80310954c6"
     },
     {
       "id": "82cook",
@@ -110,7 +110,7 @@
     {
       "id": "navercafe",
       "file": "navercafe.json",
-      "sha256": "24315f0433fc2b60cec11caf1b7647b48bee72c6b8a32f3b18fc7e9619ce2647"
+      "sha256": "a09ce2f6865632cabdeb21a501ef2b36e036290e5459346ce554036f9bb6d0fe"
     },
     {
       "id": "redtea",
@@ -135,7 +135,7 @@
     {
       "id": "nbamania",
       "file": "nbamania.json",
-      "sha256": "3b69dd447079617dbb16d8bbe6ebb288d2632914c0f9045eca6c8fced9615fc2"
+      "sha256": "9cd2a9be2c6441a746b2dfd117d8243d3b5ba4bf3be783e6d9015d90a9e69682"
     },
     {
       "id": "eomisae",
@@ -145,7 +145,7 @@
     {
       "id": "gasengi",
       "file": "gasengi.json",
-      "sha256": "b0b15f66c3fc822a2d379dbc954816bae7ca4aa82f42240b502fde3e0612c9e0"
+      "sha256": "6c5720ad547487dd163b4a977909b4708abacb651f05ee4aa1096227b467215a"
     },
     {
       "id": "quasarzone",
@@ -155,7 +155,7 @@
     {
       "id": "damoang",
       "file": "damoang.json",
-      "sha256": "d47fa704bda230963b4531d07a0805cfada75e883b218ba6700741a44dfbca97"
+      "sha256": "435023c1d837001d9a1b6394835020710b983251e03ed7b85c39b1a3dd2afb7a"
     },
     {
       "id": "geeknews",

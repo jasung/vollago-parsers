@@ -6,23 +6,27 @@
   "listUrl": "https://m.slrclub.com/",
   "maxItems": 100,
   "selectors": {
-    "item": ".sbj",
-    "title": "a",
-    "link": "a",
-    "meta": "",
-    "comments": ""
+    "item": ".sbj, li:has(> .article > .subject > a[href^=\"/v/\"]), .article[id^=\"article_\"]:has(> .subject > a[href^=\"/v/\"]), .bbs.gallery ul.list > li",
+    "title": ":scope, .subject > a, .sbj > a",
+    "link": ":scope, .subject > a, .sbj > a",
+    "meta": ".article-info, .info-wrap",
+    "comments": ".cmt2, #cmcnt, .cmt",
+    "author": ".article-info .lop, .info-wrap .lop"
   },
   "behavior": {
-    "feed": { "page": { "nextSelector": "#bbs_foot a.next1" } }
+    "feed": {
+      "loginMessages": ["로그인 후 이용해주세요", "로그인 후 이용해주세요!"],
+      "page": { "nextSelector": ".paging a.next1", "allowCrossPath": true }
+    }
   },
   "notes": "공개 본문·사진을 앱 화면으로 정리합니다. 댓글 작성은 원문에서 이용할 수 있습니다.",
   "verification": "html_checked",
-  "checkedAt": "2026-09-05",
+  "checkedAt": "2026-09-22",
   "filters": {
     "ads": "",
     "notices": ""
   },
   "article": {
-    "body": "#userct"
+    "body": "#userct, .userct"
   }
 }

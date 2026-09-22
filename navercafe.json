@@ -4,17 +4,38 @@
   "displayName": "N카페",
   "mode": "native",
   "listUrl": "https://m.cafe.naver.com/",
-  "maxItems": 100,
+  "maxItems": 200,
   "selectors": {
-    "item": ".ArticlesUlComponent li",
-    "title": ".HeadlineTextBox .tx",
-    "link": "a[href*=\"/articles/\"]",
+    "item": ".ArticleListItem:has(.mainLink[href*=\"ArticleRead.nhn\"])",
+    "title": ".HeadlineTextBox .tit",
+    "link": ".mainLink[href*=\"ArticleRead.nhn\"]",
     "meta": ".SupportingTextBox",
-    "comments": ""
+    "author": ".SupportingTextBox .SupportingText:first-child .text",
+    "comments": ".LinkComment .number"
   },
-  "notes": "로그인 후 즐겨찾는 카페를 불러와 각 카페의 전체글 목록을 표시합니다. 글 본문은 카페 웹 화면으로 엽니다.",
+  "article": {
+    "body": "#postContent",
+    "title": ".post_title h2.tit",
+    "author": ".post_title .nick",
+    "comments": ".ArticleComment .comment_list > li",
+    "commentBody": ".comment_content",
+    "commentAuthor": ".comment_header .nick_name .ellip",
+    "commentLoadMore": ".ArticleComment a.more_next",
+    "remove": ".ArticleFormArea"
+  },
+  "behavior": {
+    "list": {
+      "redirect": {
+        "path": "/ArticleRead.nhn",
+        "targetPathTemplate": "/ca-fe/web/cafes/{clubid}/articles/{articleid}",
+        "copyQueryParams": []
+      }
+    },
+    "feed": { "page": { "loadMoreSelector": ".ArticleList .btn_list_more button" } }
+  },
+  "notes": "로그인 후 즐겨찾는 카페를 불러와 각 카페의 전체글 목록·본문·현재 접근 가능한 댓글을 앱 안에서 최대 200개까지 표시합니다.",
   "verification": "device_checked",
-  "checkedAt": "2026-09-06",
+  "checkedAt": "2026-09-15",
   "filters": {
     "ads": "",
     "notices": ""
