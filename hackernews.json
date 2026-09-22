@@ -9,12 +9,13 @@
     "item": "tr.athing",
     "title": ".titleline > a",
     "link": ".titleline > a",
-    "meta": "",
-    "comments": ""
+    "meta": ".subtext",
+    "comments": ".subline > a[href^=\"item?id=\"]:last-child",
+    "author": ".hnuser"
   },
   "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
   "verification": "html_checked",
-  "checkedAt": "2026-09-05",
+  "checkedAt": "2026-09-22",
   "filters": {
     "ads": "",
     "notices": ""
@@ -26,5 +27,10 @@
     "commentBody": ".commtext",
     "commentAuthor": ".hnuser",
     "remove": ".votelinks,.subtext"
+  },
+  "behavior": {
+    "list": {
+      "metadataNextSibling": true
+    }
   }
 }

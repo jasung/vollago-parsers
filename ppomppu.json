@@ -2,15 +2,44 @@
   "schemaVersion": 1,
   "siteId": "ppomppu",
   "displayName": "뽐뿌",
-  "mode": "browser",
+  "mode": "native",
   "listUrl": "https://m.ppomppu.co.kr/new/bbs_list.php?id=freeboard",
   "maxItems": 100,
-  "selectors": {},
-  "notes": "자동 목록 접근이 제한되어 원문 웹 화면으로 연결합니다.",
-  "verification": "browser_fallback",
-  "checkedAt": "2026-09-04",
+  "selectors": {
+    "item": ".bbs > ul.bbsList > li:has(> a[href*='bbs_view.php']), .bbs > ul.bbsList_new:first-of-type > li:has(> a[href*='bbs_view.php'])",
+    "title": ".title .cont, strong",
+    "link": ":scope > a[href*='bbs_view.php']",
+    "meta": ".times, .exp",
+    "author": ".names",
+    "comments": ".rp",
+    "votes": ".rec.blue, .recs.blue"
+  },
+  "behavior": {
+    "list": {
+      "dedupeQueryParams": [
+        "id",
+        "no"
+      ],
+      "authorStripBracketPrefix": true
+    },
+    "feed": {
+      "page": {
+        "loadMoreSelector": "#paging_menu a.next:not(.off)"
+      }
+    }
+  },
+  "notes": "모바일 게시판의 일반 목록과 상품 목록, 본문과 사진을 앱 화면으로 표시합니다. 사이트의 다음 버튼을 이용해 이어 불러오며 로그인·글 작성은 원문에서 이용합니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-20",
   "filters": {
     "ads": "",
     "notices": ""
+  },
+  "article": {
+    "body": "#KH_Content",
+    "title": "meta[property=\"og:title\"]",
+    "author": ".bbs.view > h4 .info .ct a",
+    "pollAttempts": 60,
+    "pollIntervalMs": 250
   }
 }

@@ -6,11 +6,12 @@
   "listUrl": "https://m.ruliweb.com/best/humor_only/now",
   "maxItems": 100,
   "selectors": {
-    "item": "#best_body .board_list_table tr.table_body, .board_main table.board_list_table > tbody > tr.table_body.blocktarget",
-    "title": "td.subject .title a.subject_link, td.subject a.subject_link strong.text_over",
-    "link": "td.subject .title a.subject_link, td.subject a.subject_link",
+    "item": "#best_body .board_list_table tr.table_body:not(.gallery2_container), .board_main table.board_list_table > tbody > tr.table_body.blocktarget, .board_main .gallery2_container > td.gallery2.blocktarget",
+    "title": "td.subject .title a.subject_link, td.subject a.subject_link strong.text_over, .gallery_wrapper .subject_link",
+    "link": "td.subject .title a.subject_link, td.subject a.subject_link, .gallery_wrapper a:has(.subject_link)",
     "meta": "td.subject .info, td.writer",
-    "comments": ".replycount .num, .num_reply"
+    "comments": ".replycount .num, .num_reply",
+    "author": ".writer, .article_info .info .text_over"
   },
   "behavior": {
     "list": { "dedupeNumericPath": true },
@@ -18,7 +19,7 @@
   },
   "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
   "verification": "device_checked",
-  "checkedAt": "2026-09-05",
+  "checkedAt": "2026-09-22",
   "filters": {
     "ads": "",
     "notices": ""

@@ -6,12 +6,12 @@
   "listUrl": "https://damoang.net/free",
   "maxItems": 100,
   "selectors": {
-    "item": "a.post-row, a:has(.lucide-pin):has(h3)",
+    "item": "a.post-row, a[href^=\"/gallery/\"]:has(h3), a:has(.lucide-pin):has(h3)",
     "title": ".post-title, [class*=\"post-title-read-\"], h3",
     "link": ":scope",
-    "meta": ".mobile-meta",
-    "comments": ".comment-count",
-    "author": ".mobile-meta > span:last-child",
+    "meta": ".mobile-meta, h3 + .text-muted-foreground > span:last-child",
+    "comments": ".comment-count, .aspect-video .absolute",
+    "author": ".mobile-meta > span:last-child, .text-muted-foreground > span:nth-child(3)",
     "votes": ".mobile-meta > span:first-child"
   },
   "behavior": {
@@ -23,7 +23,7 @@
       "page": { "buttonText": "다음", "synthesizeQuery": "page" }
     }
   },
-  "notes": "대표 게시판의 네이티브 목록을 지원합니다. 다른 게시판은 원문 웹 화면으로 열 수 있습니다. 본문은 공개 글 HTML로 확인했습니다. 댓글은 현재 불러온 페이지 범위이며 더 보기·작성은 원문을 이용합니다.",
+  "notes": "대표 게시판의 네이티브 목록을 지원합니다. 다른 게시판은 원문 웹 화면으로 열 수 있습니다. 본문과 현재 댓글을 앱에서 표시하고, 로그인 상태라면 앱 입력창에서 댓글을 작성합니다.",
   "verification": "device_checked",
   "checkedAt": "2026-09-05",
   "article": {
@@ -33,8 +33,6 @@
     "comments": "#comments .comment-item",
     "commentBody": ".comment-body",
     "commentAuthor": "p.text-foreground > span",
-    "commentAnchor": "comments",
-    "commentFocus": "#comments textarea, textarea[name=content], textarea[name=wr_content], form textarea",
     "remove": "video + div",
     "pollAttempts": 40,
     "pollIntervalMs": 750

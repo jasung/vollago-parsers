@@ -6,16 +6,21 @@
   "listUrl": "https://www.dogdrip.net/",
   "maxItems": 100,
   "selectors": {
-    "item": "a[data-document-srl]",
-    "title": ":scope",
-    "link": ":scope",
-    "meta": "",
-    "comments": ".text-xsmall.text-primary"
+    "item": "li:has(a[data-document-srl]), tr:has(a[data-document-srl])",
+    "title": "a[data-document-srl]",
+    "link": "a[data-document-srl]",
+    "meta": ".list-meta",
+    "comments": ".text-xsmall.text-primary, .title > .text-primary",
+    "author": ".list-meta .flex-right > span, [class*=\"member_\"]"
   },
-  "behavior": { "list": { "dedupeNumericPath": true } },
+  "behavior": {
+    "list": {
+      "dedupeNumericPath": true
+    }
+  },
   "notes": "사이트 첫 화면에서 제공하는 인기글 목록입니다. 전체 게시판을 수집하는 규칙은 아닙니다. 본문은 공개 글 HTML로 확인했습니다. 댓글은 현재 불러온 페이지 범위이며 더 보기·작성은 원문을 이용합니다.",
   "verification": "html_checked",
-  "checkedAt": "2026-09-05",
+  "checkedAt": "2026-09-22",
   "article": {
     "body": ".rhymix_content[class*=\"document_\"]",
     "comments": ".comment-item[id^=\"comment_\"]",

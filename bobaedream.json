@@ -10,15 +10,23 @@
     "title": ".txt .cont",
     "link": ".info > a",
     "meta": ".txt2",
-    "comments": ".txt5 .num"
+    "comments": ".txt5 .num",
+    "author": "a[href*=\"/bbs_view/best/\"] .txt2>.block:nth-child(2), a[href*=\"/bbs_view/\"]:not([href*=\"/best/\"]):not([href*=\"/bbstory/\"]):not([href*=\"/nnews/\"]) .txt2>.block:first-child, a[href*=\"view?code=humor\"] .txt2:has(> .block:nth-child(2))>.block:first-child"
   },
   "behavior": {
-    "list": { "dedupeNumericPath": true },
-    "feed": { "page": { "pathTail": true, "samePathNumericTail": true } }
+    "list": {
+      "dedupeNumericPath": true
+    },
+    "feed": {
+      "page": {
+        "pathTail": true,
+        "samePathNumericTail": true
+      }
+    }
   },
   "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
   "verification": "device_checked",
-  "checkedAt": "2026-09-05",
+  "checkedAt": "2026-09-22",
   "filters": {
     "ads": "",
     "notices": ""

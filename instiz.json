@@ -6,15 +6,15 @@
   "listUrl": "https://www.instiz.net/",
   "maxItems": 100,
   "selectors": {
-    "item": ".realchart_item_a",
-    "title": "a .post_title",
-    "link": "a",
-    "meta": "",
-    "comments": ".cmt"
+    "item": "#mboard tr[id^=\"list\"]:has(> td.listsubject > a .sbj), body:not(:has(#mboard)) .realchart_item_a",
+    "title": "td.listsubject > a .sbj, a .post_title",
+    "link": "td.listsubject > a, a",
+    "meta": ".regdate",
+    "comments": ".cmt2, .cmt"
   },
   "notes": "공개 본문·사진을 앱 화면으로 정리합니다. 동적 댓글과 댓글 작성은 원문을 이용합니다.",
   "verification": "html_checked",
-  "checkedAt": "2026-09-05",
+  "checkedAt": "2026-09-22",
   "filters": {
     "ads": "ins.adsbygoogle",
     "notices": ""

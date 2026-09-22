@@ -1,31 +1,52 @@
 {
   "schemaVersion": 1,
   "siteId": "humoruniv",
-  "displayName": "웃긴대학 웃긴자료 인기글",
+  "displayName": "웃긴대학 웃긴자료",
   "mode": "native",
-  "listUrl": "https://m.humoruniv.com/",
+  "listUrl": "https://m.humoruniv.com/board/list.html?table=pds",
   "maxItems": 100,
   "selectors": {
-    "item": "a[href*=\"table=pds\"][href*=\"number=\"]",
+    "item": "a[href*=\"read.html\"][href*=\"number=\"]",
     "title": "span[id^=\"title_chk\"]",
     "link": ":scope",
-    "meta": "",
-    "comments": ""
+    "meta": "td > div > .extra",
+    "comments": ".comment_num",
+    "author": ".nick .hu_nick_txt, .nick"
   },
   "behavior": {
     "list": {
-      "redirect": { "path": "/rd.html", "targetPathParam": "url", "copyQueryParams": ["table", "number"] }
+      "redirect": {
+        "path": "/rd.html",
+        "targetPathParam": "url",
+        "copyQueryParams": [
+          "table",
+          "number"
+        ]
+      }
+    },
+    "feed": {
+      "page": {
+        "loadMoreSelector": "#btn_load_more"
+      }
     }
   },
-  "notes": "공개 본문·사진을 앱 화면으로 정리합니다. 동적 댓글과 댓글 작성은 원문을 이용합니다.",
+  "notes": "공개 본문·사진·현재 댓글을 앱 화면으로 정리하며 후방안심 가림 사진은 원본으로 표시합니다. 댓글 작성은 원문을 이용합니다.",
   "verification": "html_checked",
-  "checkedAt": "2026-09-05",
+  "checkedAt": "2026-09-22",
   "filters": {
     "ads": "ins.adsbygoogle",
     "notices": ""
   },
   "article": {
-    "body": "#wrap_copy .body_editor",
-    "title": ".read_subject"
+    "body": "#wrap_copy",
+    "title": ".read_subject h2 > a .color_dark",
+    "author": "#read_profile_td .nick .hu_nick_txt",
+    "comments": "#comment li[id^=\"comment_li_\"]",
+    "commentBody": ".comment_body",
+    "commentAuthor": ".nick .hu_nick_txt",
+    "commentReply": ".sub_comm_bt",
+    "remove": ".recomm_btn, .comment_more_btn, div[id^=\"racy_show_\"]",
+    "pollAttempts": 60,
+    "pollIntervalMs": 250
   }
 }

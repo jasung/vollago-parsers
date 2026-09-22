@@ -10,12 +10,17 @@
     "title": ".subjectin, td.gall_tit > a:first-of-type",
     "link": ".gall-detail-lnktb > a.lt, td.gall_tit > a:first-of-type",
     "meta": ".ginfo, td.gall_writer",
-    "comments": ".gall-detail-lnktb > a.rt .ct, .reply_num"
+    "comments": ".gall-detail-lnktb > a.rt .ct, .reply_num",
+    "author": ".list-nick, td.gall_writer .nickname"
   },
-  "behavior": { "list": { "dedupeNumericPath": true } },
+  "behavior": {
+    "list": {
+      "dedupeNumericPath": true
+    }
+  },
   "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
   "verification": "device_checked",
-  "checkedAt": "2026-09-05",
+  "checkedAt": "2026-09-22",
   "filters": {
     "ads": "",
     "notices": ""
