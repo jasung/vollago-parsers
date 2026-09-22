@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.22.1",
+  "version": "2026.09.22.2",
   "sites": [
     {
       "id": "clien",
       "file": "clien.json",
-      "sha256": "e57413e626de26c55d83321a1c8a266506ca94cbe22a137590469a9a378cf7b6"
+      "sha256": "af41ff0aae7fe590668e6bf7db3ed708e90cc04daccb6fd3f80075188c616f04"
     },
     {
       "id": "ruliweb",

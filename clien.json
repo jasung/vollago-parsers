@@ -22,8 +22,8 @@
     }
   },
   "notes": "본문을 앱 화면으로 정리합니다. 댓글은 페이지에 공개된 항목만 표시하며, 동영상 재생·댓글 작성은 원문에서 이용할 수 있습니다.",
-  "verification": "browser_fallback",
-  "checkedAt": "2026-09-06",
+  "verification": "device_checked",
+  "checkedAt": "2026-09-22",
   "filters": {
     "ads": "[class^=\"view_top_\"],[class^=\"list_bottom_\"],a.list_item[href*=\"/hongbo/\"]",
     "notices": ".list_item.notice"
@@ -31,9 +31,11 @@
   "article": {
     "body": ".post_article",
     "title": ".post_subject",
-    "author": ".post_contact .contact_name .nickname",
+    "author": ".post_contact .contact_name",
     "comments": ".comment_row",
     "commentBody": ".comment_view",
-    "commentAuthor": ".contact_name .nickname"
+    "commentAuthor": ".contact_name",
+    "commentReply": ".re",
+    "commentRecipient": ".comment_view > strong[data-role=\"highlite\"], .comment_view > strong:has(> img[data-role=\"highlite\"])"
   }
 }
