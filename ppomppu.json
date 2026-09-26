@@ -37,6 +37,7 @@
   },
   "article": {
     "body": "#KH_Content",
+    "date": ".bbs.view > h4 .info .hi",
     "title": "meta[property=\"og:title\"]",
     "author": ".bbs.view > h4 .info .ct a",
     "pollAttempts": 60,

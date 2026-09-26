@@ -21,6 +21,7 @@
   },
   "article": {
     "body": "#memo_content_1",
+    "date": "[itemprop=\"datePublished\"]",
     "title": "#nowsubject"
   }
 }

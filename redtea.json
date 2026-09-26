@@ -19,6 +19,8 @@
   "checkedAt": "2026-09-05",
   "article": {
     "body": ".articleArea",
+    "date": ".viewTable time",
+    "author": "#view_writer .is-nick",
     "title": ".article-subject"
   },
   "articleCheckedAt": "2026-09-05",

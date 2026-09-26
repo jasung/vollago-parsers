@@ -25,6 +25,8 @@
   "checkedAt": "2026-09-22",
   "article": {
     "body": "#articleBody",
+    "date": "#readHead .readRight",
+    "author": "#readHead .readLeft .user_profile a",
     "comments": ".reples > li",
     "commentBody": ":scope > p",
     "commentAuthor": ".user_function"

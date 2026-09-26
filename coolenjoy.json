@@ -26,6 +26,7 @@
   "checkedAt": "2026-09-22",
   "article": {
     "body": ".view-content",
+    "date": "#bo_v_info",
     "title": "h1",
     "author": ".sv_member",
     "comments": "#viewcomment article",

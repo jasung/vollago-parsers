@@ -21,6 +21,8 @@
   },
   "article": {
     "body": ".rhymix_content",
+    "date": ".rd_hd .btm_area .side.fr span",
+    "author": ".rd_hd .btm_area .side:first-child",
     "title": ".title"
   }
 }

@@ -39,6 +39,7 @@
   },
   "article": {
     "body": "#wrap_copy",
+    "date": "#read_profile_td .date",
     "title": ".read_subject h2 > a .color_dark",
     "author": "#read_profile_td .nick .hu_nick_txt",
     "comments": "#comment li[id^=\"comment_li_\"]",

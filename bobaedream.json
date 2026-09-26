@@ -33,8 +33,9 @@
   },
   "article": {
     "body": ".article-body",
+    "date": ".writerInfo03 .countGroup",
     "title": ".article-tit .subject",
-    "author": ".article-tit .info > span",
+    "author": ".article-tit .info > span, .writerInfo03 .nickName",
     "comments": ".reple_body .list > li",
     "commentBody": ".reply",
     "commentAuthor": ".util .data4",

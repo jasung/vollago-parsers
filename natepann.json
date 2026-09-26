@@ -16,7 +16,9 @@
   "verification": "html_checked",
   "checkedAt": "2026-09-05",
   "article": {
-    "body": "#pann-content"
+    "body": "#pann-content",
+    "date": ".writer .sub:first-child .num",
+    "author": ".writer .sub:first-child .nick"
   },
   "articleCheckedAt": "2026-09-05",
   "filters": {

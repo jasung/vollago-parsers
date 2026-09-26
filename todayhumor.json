@@ -30,8 +30,9 @@
   },
   "article": {
     "body": "#viewContent",
+    "date": ".view_wdate",
     "title": ".view_subject",
-    "author": ".view_name",
+    "author": ".view_writer_span",
     "comments": ".memoDiv",
     "commentBody": ".memoContent",
     "commentAuthor": ".memoName"

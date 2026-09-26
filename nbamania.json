@@ -23,6 +23,7 @@
   },
   "article": {
     "body": "#resContents",
+    "date": "#view_datetime, .view_datetime",
     "title": "#view_header1",
     "author": "#view_nickname",
     "comments": ".comment_content_container",

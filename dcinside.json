@@ -27,8 +27,9 @@
   },
   "article": {
     "body": ".thum-txtin",
+    "date": ".gall_writer[data-loc=\"view\"] .gall_date, .gallview-tit-box .gall_date",
     "title": ".gallview-tit-box .tit",
-    "author": ".gallview-tit-box .nick",
+    "author": ".gall_writer[data-loc=\"view\"] .nickname, .gallview-tit-box .nick",
     "comments": ".all-comment-lst > li",
     "commentBody": ".txt",
     "commentAuthor": ".nick"

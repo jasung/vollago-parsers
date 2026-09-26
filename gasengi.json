@@ -30,6 +30,8 @@
   },
   "article": {
     "body": "#bo_v_con",
+    "date": "#bo_v_info",
+    "author": "#bo_v_info .sv_member",
     "title": "h3.fs-4"
   }
 }

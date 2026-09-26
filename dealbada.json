@@ -30,6 +30,7 @@
   },
   "article": {
     "body": "#bo_v_con",
+    "date": "#bo_v_info",
     "title": "#bo_v_title",
     "author": "#bo_v_info .sv_member"
   }

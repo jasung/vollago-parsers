@@ -27,6 +27,8 @@
     "notices": ""
   },
   "article": {
-    "body": "#userct, .userct"
+    "body": "#userct, .userct",
+    "date": ".info-wrap",
+    "author": ".info-wrap .lop"
   }
 }

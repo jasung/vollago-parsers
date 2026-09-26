@@ -22,6 +22,8 @@
   },
   "article": {
     "body": ".fatitem",
+    "date": ".fatitem .subtext .age",
+    "author": ".fatitem .subtext .hnuser",
     "title": ".titleline",
     "comments": ".comtr",
     "commentBody": ".commtext",

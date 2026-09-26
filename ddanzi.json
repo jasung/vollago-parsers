@@ -23,6 +23,8 @@
   },
   "article": {
     "body": ".read_content .xe_content, .xe_content[class*=\"document_\"]",
+    "date": ".read_header .time",
+    "author": ".read_header .meta .author",
     "title": ".read_header .title, h1.title"
   }
 }

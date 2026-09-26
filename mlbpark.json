@@ -6,18 +6,18 @@
   "listUrl": "https://mlbpark.donga.com/mp/",
   "maxItems": 100,
   "selectors": {
-    "item": "#SmartPhone_bullpen_today ul.lists:first-of-type > li.items, .article_box .news_list:not(.commercial) > ul > li, ul.lists:not(.sub_lists_today) > li.items:has(.title > a.txt), .tbl_type01 tbody tr:has(.tit a.txt)",
+    "item": "body:not(:has(.gather_list)) #SmartPhone_bullpen_today ul.lists>li.items, .gather_list>li.items, .news_list:not(.commercial)>ul>li, body:not(:has(.gather_list)) ul.lists:not(.sub_lists_today)>li.items:has(.title>a.txt), .tbl_type01 tr:has(.tit a.txt)",
     "title": ".title > a.txt, .tit a.txt, .title > a:not(.word)",
     "link": ".title > a.txt, .tit a.txt, .title > a:not(.word)",
     "meta": ".info, .views, .date",
     "comments": ".replycont, .replycnt",
-    "author": ".nick"
+    "author": ".nick, .user_name"
   },
   "behavior": {
     "list": { "dedupeQueryParams": ["b", "id"] },
     "feed": {
       "searchForm": { "selector": "form[name=searchForm]", "field": "query", "params": { "m": "search" }, "paramSelectors": { "b": "[name=b]" }, "select": "sct" },
-      "page": { "queryKey": "p", "divisor": 30, "excludePaths": ["/mp/honor.php"] }
+      "page": { "queryKey": "p", "divisor": 30 }
     }
   },
   "notes": "대표 게시판의 네이티브 목록과 본문을 지원합니다.",
@@ -29,6 +29,7 @@
   },
   "article": {
     "body": "#contentDetail",
+    "date": ".view_head .text3 .val",
     "author": ".text1 .nick",
     "remove": ".tool_cont"
   }

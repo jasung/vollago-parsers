@@ -23,6 +23,8 @@
   },
   "article": {
     "body": "#topic_contents",
+    "date": ".topicinfo time",
+    "author": ".topicinfo a[href^=\"/@\"]",
     "title": ".topictitle"
   }
 }

@@ -30,6 +30,7 @@
   },
   "article": {
     "body": ".post_article",
+    "date": ".post_contact .contact_date, .post_contact .contact_time",
     "title": ".post_subject",
     "author": ".post_contact .contact_name",
     "comments": ".comment_row",

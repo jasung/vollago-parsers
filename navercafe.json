@@ -15,6 +15,7 @@
   },
   "article": {
     "body": "#postContent",
+    "date": ".post_title .date",
     "title": ".post_title h2.tit",
     "author": ".post_title .nick",
     "comments": ".ArticleComment .comment_list > li",

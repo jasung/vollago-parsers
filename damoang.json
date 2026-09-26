@@ -28,6 +28,7 @@
   "checkedAt": "2026-09-05",
   "article": {
     "body": "div.space-y-6:has(> #economy-post-content)",
+    "date": "[data-slot=\"card-header\"] time",
     "title": "h1",
     "author": "[data-slot=\"card-header\"] p.text-foreground > span",
     "comments": "#comments .comment-item",

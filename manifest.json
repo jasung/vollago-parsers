@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.22.5",
+  "version": "2026.09.27.1",
   "sites": [
     {
       "id": "clien",
       "file": "clien.json",
-      "sha256": "af41ff0aae7fe590668e6bf7db3ed708e90cc04daccb6fd3f80075188c616f04"
+      "sha256": "70b522d7ec9c6fedc178f45a62983e092e5d9d7a1f030c2e938b92a3caef3163"
     },
     {
       "id": "ruliweb",
@@ -15,52 +15,52 @@
     {
       "id": "slrclub",
       "file": "slrclub.json",
-      "sha256": "1dc56c6cac24a42e072ac2312c5fb71f7625da7daed508aa6b0b17217e0e7bdc"
+      "sha256": "58fc12fc2deedbbb83669d5337b540ed50e12a9325da00dacab4396a70be6e7a"
     },
     {
       "id": "ppomppu",
       "file": "ppomppu.json",
-      "sha256": "ccd245db80bd3165fffdc8f36c1f36196d726bde1021ce547444785bc7b5795c"
+      "sha256": "b54dfd9271d4a5619a121843f698707a470e8dd8e1b76bccb32fdbfacc783469"
     },
     {
       "id": "todayhumor",
       "file": "todayhumor.json",
-      "sha256": "1fe1d084cc51c3414afe566dedc769bf8bb1fb970288d0523ad16de9344f15a3"
+      "sha256": "f91d73df839e4e1851cd413d1f1ddd82e5eccd79f9309d0b757c160f8c0f588c"
     },
     {
       "id": "inven",
       "file": "inven.json",
-      "sha256": "b85745a310453ea3aa56e25516e18a2eb89b722a823bb46403854d41c0f51244"
+      "sha256": "4f38db460b88edea44a6d22d5ffa7cc4edc3ccaa64691464960f0120853a33fa"
     },
     {
       "id": "bobaedream",
       "file": "bobaedream.json",
-      "sha256": "39d8944a39cb8a855a327190d68ac3cc8cdfd0bd6a9117a06814501960b4a366"
+      "sha256": "7cfa7d570909e4a46a63f6c48702f0902a74418e5ea0665dddcb24a78a39406e"
     },
     {
       "id": "mlbpark",
       "file": "mlbpark.json",
-      "sha256": "9f552aa8cbcf45631b4b846f98886a47f27cf1b00eb6e3d718539aa779f35d29"
+      "sha256": "8f7cd8da6296ad2b810a484a741b108d0c4c0f51058dd1fb72bd06f1264f929c"
     },
     {
       "id": "dvdprime",
       "file": "dvdprime.json",
-      "sha256": "7a44e99ec15c852f977d472b43e1dc7403e9221e3017779e62b364650b016843"
+      "sha256": "f432cb22197b91ea218ed52b8859721931b6d751e98950f6e7236ca75c93f657"
     },
     {
       "id": "ddanzi",
       "file": "ddanzi.json",
-      "sha256": "ae452e3743ff163b12083a8e6cfa894faaf61c4040b2ef6c346dac67a844f2fa"
+      "sha256": "0f4796f4291b2bd01ec7bf8838f510a8b92c579525b1fc9d4288cd5f5c077ebf"
     },
     {
       "id": "humoruniv",
       "file": "humoruniv.json",
-      "sha256": "d66109ee238f1a76ca8d13bf65c24d447a82873e01ce581843f3e4c704e9e420"
+      "sha256": "cc443ac1d8dc7e5d7020334508b2fd19ffcceab0f62a45b81324a30c85222982"
     },
     {
       "id": "dealbada",
       "file": "dealbada.json",
-      "sha256": "8a1f0871d0065b1c0534e809042701495f9a42d42f9c1250cd2081cb66902fe2"
+      "sha256": "81dec3ca1442b12a2ab6ddb78c1d14741610e9c52252bf5c9ba42e88364859df"
     },
     {
       "id": "pgr21",
@@ -70,27 +70,27 @@
     {
       "id": "dcinside",
       "file": "dcinside.json",
-      "sha256": "a0005c90698b5abfff345722695e527c6562a3fce3a32fbd9945847d986845d4"
+      "sha256": "b807d019f7097896bed620841895e73987859ce9f0e9e9a21350fc96569ccf5c"
     },
     {
       "id": "coolenjoy",
       "file": "coolenjoy.json",
-      "sha256": "24eecf7beaacf9337f075cb73874e3b819c5cef65ed0a8088e8ec65da558dd9b"
+      "sha256": "da52331d425bd5ac523224bc322a36dac3c4e3bce01cdc5e99ae8d2938814d51"
     },
     {
       "id": "82cook",
       "file": "82cook.json",
-      "sha256": "c991d813be8dc18965cd50f61858fda1286d6ba76b60f3d9eb0505a549236209"
+      "sha256": "30418941a55c0508260f626c664545b3806d3155d1174f78c6e7b5c89f890da4"
     },
     {
       "id": "theqoo",
       "file": "theqoo.json",
-      "sha256": "b2d712e575ac3bb6fb9c07e2d93953e940807143704eac2016f0d4ab5164d466"
+      "sha256": "c69c2ea8f9ee61e07278485db5270f7663a541e5ce36ff71c7303d4b00930f34"
     },
     {
       "id": "extmovie",
       "file": "extmovie.json",
-      "sha256": "d59ba1ea04972ba90a90ca7dab6cc53b3cd1360927422dc8424b99094fc3a5a9"
+      "sha256": "7e577cd67eb4f71b31227c8258349b9698a171076e93075aa2b7614e63519e53"
     },
     {
       "id": "etoland",
@@ -105,27 +105,27 @@
     {
       "id": "natepann",
       "file": "natepann.json",
-      "sha256": "94ab38602921b99408773ba9a55fb0792aafd8565cacd6616d8a510efdc5a4f2"
+      "sha256": "8cc1196b8996daaa8b5409e06096bb860a17f537319754f94d3b9cbe839272d7"
     },
     {
       "id": "navercafe",
       "file": "navercafe.json",
-      "sha256": "a09ce2f6865632cabdeb21a501ef2b36e036290e5459346ce554036f9bb6d0fe"
+      "sha256": "06b1f5bef047e9f1976061fcdc45dc87484ff5e55785c8cccc94ed4ccc682be7"
     },
     {
       "id": "redtea",
       "file": "redtea.json",
-      "sha256": "18462f1fdacb31f40a82da9fcee925e4b34fbe620be28516c9e8eeb584026aa6"
+      "sha256": "b112ebb0f8a13fd019df4546bff53a1ee27c35886d2d90018abd18fb99ebdd9b"
     },
     {
       "id": "instiz",
       "file": "instiz.json",
-      "sha256": "1c94e63aa4ac965f9523b7ea298188288ed1b56b12642f417bc96303ba2b95a8"
+      "sha256": "48ad214e8f8f95e8a8bb25104b4411511e3ef1fc1224d977d8b5abfc94fcdcd2"
     },
     {
       "id": "dogdrip",
       "file": "dogdrip.json",
-      "sha256": "bb0901b0243ac6c80847621aff94fb134c5bfcedbf26cbd2671f76c25e0509ac"
+      "sha256": "44502a252369926f25814cc3b5a110a32b6f545c6e2f8c643587bf7f28afee51"
     },
     {
       "id": "hungryboarder",
@@ -135,17 +135,17 @@
     {
       "id": "nbamania",
       "file": "nbamania.json",
-      "sha256": "9cd2a9be2c6441a746b2dfd117d8243d3b5ba4bf3be783e6d9015d90a9e69682"
+      "sha256": "b66704f986c5438b11153154daab4f7ccd53d53253f699fee45794470ea99bbf"
     },
     {
       "id": "eomisae",
       "file": "eomisae.json",
-      "sha256": "dc42cbf6f43bb685d9bae00a83976e60cb813f556c8781ae7a1fdc7f9e7b916a"
+      "sha256": "87a8bdd12c7d762af3cd2c1bc6dc68edf9883b74fa0d621309c0085c7fc6dcb4"
     },
     {
       "id": "gasengi",
       "file": "gasengi.json",
-      "sha256": "d88c02804adbca13ca71bbd6e7df3e92530e2bcad1240bb5053d8b7c94580946"
+      "sha256": "1ec208fc4c4dd7a3832d5ede33224c388001f0f8b08e1baa71489b39e27cd579"
     },
     {
       "id": "quasarzone",
@@ -155,17 +155,17 @@
     {
       "id": "damoang",
       "file": "damoang.json",
-      "sha256": "9259dd21a4edebe437fc3885c422b0dba156c5c9a59c343afd016dd17d4ffc11"
+      "sha256": "3cb2afccc86413efb0a836e1d737f6b00304cae5bb3f56eaff1fb082ea65edf9"
     },
     {
       "id": "geeknews",
       "file": "geeknews.json",
-      "sha256": "20ef5fb0081f58a41055c87ae2edc2dfa9df0b7b046f79693a2f92de236629c2"
+      "sha256": "52c431a3f562ea3b38813caea5e496a254fed20b5416c2319f50b8aa03c57811"
     },
     {
       "id": "hackernews",
       "file": "hackernews.json",
-      "sha256": "13fb8b657d18b72ce9b9db9edb650a6f8a1180f03db00c872225fee98c749d0b"
+      "sha256": "80be73a4382cb44d1dc96c1c84a173fff833a8e224d17cd8316c2411643b6773"
     },
     {
       "id": "arca",

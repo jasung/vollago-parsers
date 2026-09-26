@@ -22,7 +22,8 @@
   },
   "article": {
     "body": ".articleContent",
+    "date": "#articleView .bbs-top .info .date",
     "title": ".articleSubject",
-    "author": ".articleWriter"
+    "author": "#article-writer, .articleWriter"
   }
 }

@@ -23,6 +23,8 @@
   "checkedAt": "2026-09-22",
   "article": {
     "body": ".rhymix_content[class*=\"document_\"]",
+    "date": "._hd .btm_area > span:last-child",
+    "author": "._hd .btm_area .info a[class*=\"member_\"]",
     "comments": "._comment[id^=\"comment_\"]",
     "commentBody": ".rhymix_content",
     "commentAuthor": "a[class*=\"member_\"]"
