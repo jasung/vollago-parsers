@@ -6,7 +6,7 @@
   "listUrl": "https://mlbpark.donga.com/mp/best.php?b=bullpen&m=like",
   "maxItems": 100,
   "selectors": {
-    "item": "#todayBest ul.lists:first-of-type>li.items, body:not(:has(.gather_list,#todayBest)) #SmartPhone_bullpen_today ul.lists>li.items, .gather_list>li.items, .news_list:not(.commercial)>ul>li, body:not(:has(.gather_list,#todayBest)) ul.lists:not(.sub_lists_today)>li.items:has(.title>a.txt), .tbl_type01 tr:has(a.txt)",
+    "item": "#todayBest ul:first-of-type>.items,body:not(:has(.gather_list,#todayBest)) :is(#SmartPhone_bullpen_today .lists>.items,.lists:not(.sub_lists_today)>.items:has(.title>a.txt)),.gather_list>.items,.news_list:not(.commercial)>ul>li,.tbl_type01 tr:has(a.txt)",
     "title": ".title > a.txt, .tit a.txt, .title > a:not(.word), .t_left > a.txt",
     "link": ".title > a.txt, .tit a.txt, .title > a:not(.word), .t_left > a.txt",
     "meta": ".info, .views, .date",
