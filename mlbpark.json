@@ -3,12 +3,12 @@
   "siteId": "mlbpark",
   "displayName": "MLB파크 인기글",
   "mode": "native",
-  "listUrl": "https://mlbpark.donga.com/mp/",
+  "listUrl": "https://mlbpark.donga.com/mp/best.php?b=bullpen&m=like",
   "maxItems": 100,
   "selectors": {
-    "item": "body:not(:has(.gather_list)) #SmartPhone_bullpen_today ul.lists>li.items, .gather_list>li.items, .news_list:not(.commercial)>ul>li, body:not(:has(.gather_list)) ul.lists:not(.sub_lists_today)>li.items:has(.title>a.txt), .tbl_type01 tr:has(.tit a.txt)",
-    "title": ".title > a.txt, .tit a.txt, .title > a:not(.word)",
-    "link": ".title > a.txt, .tit a.txt, .title > a:not(.word)",
+    "item": "#todayBest ul.lists:first-of-type>li.items, body:not(:has(.gather_list,#todayBest)) #SmartPhone_bullpen_today ul.lists>li.items, .gather_list>li.items, .news_list:not(.commercial)>ul>li, body:not(:has(.gather_list,#todayBest)) ul.lists:not(.sub_lists_today)>li.items:has(.title>a.txt), .tbl_type01 tr:has(a.txt)",
+    "title": ".title > a.txt, .tit a.txt, .title > a:not(.word), .t_left > a.txt",
+    "link": ".title > a.txt, .tit a.txt, .title > a:not(.word), .t_left > a.txt",
     "meta": ".info, .views, .date",
     "comments": ".replycont, .replycnt",
     "author": ".nick, .user_name"
@@ -17,12 +17,12 @@
     "list": { "dedupeQueryParams": ["b", "id"] },
     "feed": {
       "searchForm": { "selector": "form[name=searchForm]", "field": "query", "params": { "m": "search" }, "paramSelectors": { "b": "[name=b]" }, "select": "sct" },
-      "page": { "queryKey": "p", "divisor": 30 }
+      "page": { "queryKey": "p", "divisor": 30, "nextSelector": ".paging_box .page a[href*='date=']:first-of-type" }
     }
   },
   "notes": "대표 게시판의 네이티브 목록과 본문을 지원합니다.",
-  "verification": "device_checked",
-  "checkedAt": "2026-09-22",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-27",
   "filters": {
     "ads": "",
     "notices": ""

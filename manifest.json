@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.27.1",
+  "version": "2026.09.27.2",
   "sites": [
     {
       "id": "clien",
@@ -40,7 +40,7 @@
     {
       "id": "mlbpark",
       "file": "mlbpark.json",
-      "sha256": "8f7cd8da6296ad2b810a484a741b108d0c4c0f51058dd1fb72bd06f1264f929c"
+      "sha256": "ab2b2a5ca4114f5ba57b3c70c1f0b454290a643afa43c58757537dab18ee1185"
     },
     {
       "id": "dvdprime",
