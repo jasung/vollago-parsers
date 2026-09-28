@@ -24,19 +24,21 @@
 
 - `titleRemove`, `metaRemove`: 추출 전에 제거할 CSS 선택자입니다.
 - `linkAttribute`: 링크를 읽을 속성이며 기본값은 `href`입니다.
-- `redirect`: `path`, `targetPathParam`, `copyQueryParams`로 중간 링크를 실제 글 주소로 변환합니다.
+- `redirect`: `path`, `targetPathParam` 또는 `{query}` 치환식 `targetPathTemplate`, `copyQueryParams`로 중간 링크를 실제 글 주소로 변환합니다.
 - `dedupeQueryParams`, `dedupeNumericPath`: 페이지가 달라도 같은 글을 중복 표시하지 않도록 식별합니다.
 
 ### 검색·페이지 옵션
 
 `behavior.feed`에서 검색 필드와 고정 파라미터, 로그인·빈 목록 문구, 검색 폼 보정과 페이지 이동 방식을 설정할 수 있습니다. 현재 지원하는 항목은 `directSearch`, `queryFields`, `loginMessages`, `loginPaths`, `emptyMessages`, `searchFromPath`, `searchForm`, `page`입니다.
 
+같은 문서에 글을 덧붙이는 사이트는 `page.loadMoreSelector`에 더 보기 버튼 선택자를 지정합니다. 앱은 목록 끝에서 해당 문서를 아래로 이동하고, 표시된 버튼만 누른 뒤 새 글을 다시 읽습니다.
+
 ### 본문·댓글 옵션
 
 `article`은 기존 본문·댓글 선택자 외에 다음 항목을 지원합니다.
 
 - `commentReply`, `commentRecipient`: 대댓글과 수신자를 구분하는 선택자입니다.
-- `commentAnchor`, `commentFocus`: 앱 내 댓글 작성 화면의 위치와 입력란 선택자입니다.
+- `commentLoadMore`: 본문과 별도 댓글 화면을 잇는 더 보기 선택자입니다.
 - `pollAttempts`, `pollIntervalMs`: 늦게 추가되는 본문·댓글·iframe의 재추출 횟수와 간격입니다.
 - `imageSources`, `mediaSources`: 지연 로딩 이미지·iframe·동영상의 URL 속성 우선순위입니다.
 

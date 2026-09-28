@@ -31,6 +31,11 @@
     "body": "#contentDetail",
     "date": ".view_head .text3 .val",
     "author": ".text1 .nick",
-    "remove": ".tool_cont"
+    "remove": ".tool_cont",
+    "comments": ".reply_list > .other_con",
+    "commentBody": ".re_txt",
+    "commentAuthor": ".other_reply .name",
+    "commentReply": ".replied",
+    "commentRecipient": ".name_re"
   }
 }

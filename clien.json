@@ -7,12 +7,13 @@
   "maxItems": 100,
   "selectors": {
     "item": "a.list_item, .card_item",
-    "title": ".list_subject, .card_subject",
+    "title": ".list_subject, .card_subject > span[title]",
     "link": ":scope, a.card_subject",
     "meta": ".list_time",
     "comments": ".list_reply",
     "author": ".list_author",
-    "votes": ""
+    "votes": "",
+    "thumbnail": ".card_image img"
   },
   "behavior": {
     "list": { "dedupeNumericPath": true },

@@ -12,7 +12,8 @@
     "meta": ".mobile-meta, h3 + .text-muted-foreground > span:last-child",
     "comments": ".comment-count, .aspect-video .absolute",
     "author": ".mobile-meta > span:last-child, .text-muted-foreground > span:nth-child(3)",
-    "votes": ".mobile-meta > span:first-child"
+    "votes": ".mobile-meta > span:first-child",
+    "thumbnail": ".aspect-video img"
   },
   "behavior": {
     "list": { "dedupeNumericPath": true },

@@ -24,6 +24,9 @@
     "body": ".articleContent",
     "date": "#articleView .bbs-top .info .date",
     "title": ".articleSubject",
-    "author": "#article-writer, .articleWriter"
+    "author": "#article-writer, .articleWriter",
+    "comments": ".cmtMain .commentList1:not(.bestComment) li.row",
+    "commentBody": ".cmtOne > .comment > .content",
+    "commentAuthor": ".cmtOne > .title .nickname"
   }
 }

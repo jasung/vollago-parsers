@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.27.3",
+  "version": "2026.09.29.1",
   "sites": [
     {
       "id": "clien",
       "file": "clien.json",
-      "sha256": "70b522d7ec9c6fedc178f45a62983e092e5d9d7a1f030c2e938b92a3caef3163"
+      "sha256": "620bae7b80ca12ba8047dfe28123a047f4260e7096c36d8a480da9239625a667"
     },
     {
       "id": "ruliweb",
@@ -15,7 +15,7 @@
     {
       "id": "slrclub",
       "file": "slrclub.json",
-      "sha256": "58fc12fc2deedbbb83669d5337b540ed50e12a9325da00dacab4396a70be6e7a"
+      "sha256": "df23f0d9e61ab11f168b59ceda5dece040d3dce2d18561ce9f46554a02489b2e"
     },
     {
       "id": "ppomppu",
@@ -30,7 +30,7 @@
     {
       "id": "inven",
       "file": "inven.json",
-      "sha256": "4f38db460b88edea44a6d22d5ffa7cc4edc3ccaa64691464960f0120853a33fa"
+      "sha256": "ad303d8cad208907fb2c35035f9721799c4b3433b66f7c67088cb2e149d7d66a"
     },
     {
       "id": "bobaedream",
@@ -40,7 +40,7 @@
     {
       "id": "mlbpark",
       "file": "mlbpark.json",
-      "sha256": "9d51b387d59d49a3428007ffbbe07ac5c32be0cb54878e14783da5dca1fa6a5c"
+      "sha256": "179ebbf1a35796a9e901df15c1a9047843c385f78d766d858c0a649e69085121"
     },
     {
       "id": "dvdprime",
@@ -155,7 +155,7 @@
     {
       "id": "damoang",
       "file": "damoang.json",
-      "sha256": "3cb2afccc86413efb0a836e1d737f6b00304cae5bb3f56eaff1fb082ea65edf9"
+      "sha256": "a26fc5aa2de215f4f83c8698802e982844e7187f3404766d310e1b9faad86786"
     },
     {
       "id": "geeknews",

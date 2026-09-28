@@ -3,7 +3,7 @@
   "siteId": "slrclub",
   "displayName": "SLR클럽 인기글",
   "mode": "native",
-  "listUrl": "https://m.slrclub.com/",
+  "listUrl": "https://m.slrclub.com/l/hot_article",
   "maxItems": 100,
   "selectors": {
     "item": ".sbj, li:has(> .article > .subject > a[href^=\"/v/\"]), .article[id^=\"article_\"]:has(> .subject > a[href^=\"/v/\"]), .bbs.gallery ul.list > li",
@@ -29,6 +29,9 @@
   "article": {
     "body": "#userct, .userct",
     "date": ".info-wrap",
-    "author": ".info-wrap .lop"
+    "author": ".info-wrap .lop",
+    "comments": "#rewview_list ul.list > li:has(.cmt-contents)",
+    "commentBody": ".cmt-contents",
+    "commentAuthor": ".info-wrap .cname"
   }
 }
