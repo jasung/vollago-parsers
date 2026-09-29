@@ -2,13 +2,32 @@
   "schemaVersion": 1,
   "siteId": "etoland",
   "displayName": "이토랜드 인기글",
-  "mode": "browser",
+  "mode": "native",
   "listUrl": "https://etoland.co.kr/hit/list",
   "maxItems": 100,
-  "selectors": {},
-  "notes": "2026년 새 사이트의 동적 목록과 본문을 원문 웹 화면으로 표시합니다.",
-  "verification": "device_checked",
-  "checkedAt": "2026-09-05",
+  "selectors": {
+    "item": "a.mobile-list-item[href*=\"/view/\"], a[type=\"transition-to-detail\"][href*=\"/view/\"], a[href*=\"/b/betting/view/\"]",
+    "title": "span.body-l.truncate, p.font-medium > span:first-child, span.label-l.truncate, a[href*=\"/b/betting/view/\"] div.justify-between.gap-2.px-4.py-3",
+    "link": ":scope",
+    "meta": ".caption-m[class*=\"text-etoText-3\"], .caption-s[class*=\"text-etoText-3\"]",
+    "comments": ".comment-xs, p.font-medium > span.caption-m",
+    "author": ".caption-m[class*=\"text-etoText-3\"] > span:nth-child(2), .caption-s[class*=\"text-etoText-3\"] > span:nth-child(5)",
+    "thumbnail": ".mobile-list-thumbnail img, .item-image img"
+  },
+  "behavior": { "list": { "metaRemove": "script" } },
+  "notes": "글 목록과 본문·댓글을 앱 화면으로 정리합니다.",
+  "verification": "html_checked",
+  "checkedAt": "2026-09-29",
+  "article": {
+    "body": ".view-content",
+    "title": "h1.body-m",
+    "author": "article > h1.body-m + div .nickname, .label-m:has(h1) + .caption-m .nickname",
+    "date": "article > h1.body-m + div time, .label-m:has(h1) + .caption-m > div > span:first-child",
+    "comments": "#comment-list .comment-item",
+    "commentBody": ".body-m-reading",
+    "commentAuthor": ".nickname"
+  },
+  "articleCheckedAt": "2026-09-29",
   "filters": {
     "ads": "",
     "notices": ""

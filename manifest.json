@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.29.1",
+  "version": "2026.09.29.2",
   "sites": [
     {
       "id": "clien",
@@ -95,7 +95,7 @@
     {
       "id": "etoland",
       "file": "etoland.json",
-      "sha256": "63392bc6325f8b509c36b16e6a3132697c686480ca2e1e3fa7b5389beb8ce165"
+      "sha256": "26b8f7e42ea275cd18554a9ef350a36afed9ca41f1fdb22e9e6b1e448f80bfd3"
     },
     {
       "id": "popco",
